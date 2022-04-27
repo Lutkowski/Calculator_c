@@ -3,4 +3,4 @@ project(calculus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(calculus main.cpp stacks.cpp variable.h)
+add_executable(calculus main.cpp stacks.cpp)
