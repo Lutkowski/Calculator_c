@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/calculus/main.cpp
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stacks.h
+C:/calculus/stacks.h
+math.h
+-
+
+C:/calculus/stacks.cpp
+stacks.h
+C:/calculus/stacks.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/calculus/stacks.h
+
